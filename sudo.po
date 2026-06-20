@@ -1,0 +1,767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sudo-1.9.16b1\n"
+"Report-Msgid-Bugs-To: https://bugzilla.sudo.ws\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-19 23:27+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"选项：\n"
+
+msgid "%.*s exists but is not a directory (0%o)"
+msgstr "%.*s 存在但不是目录（0%o）"
+
+msgid ""
+"%s - edit files as another user\n"
+"\n"
+msgstr ""
+"%s - 以其他用户身份编辑文件\n"
+"\n"
+
+msgid ""
+"%s - execute a command as another user\n"
+"\n"
+msgstr ""
+"%s - 以其他用户身份执行一条命令\n"
+"\n"
+
+msgid "%s changed labels"
+msgstr "%s 修改了标签"
+
+msgid "%s is group writable"
+msgstr "%s 可被用户组写"
+
+msgid "%s is not a character device, not relabeling tty"
+msgstr "%s 不是字符型设备，将不重新标记终端"
+
+msgid "%s is not a regular file"
+msgstr "%s 不是常规文件"
+
+msgid "%s is not a valid context"
+msgstr "%s 不是有效的环境"
+
+msgid "%s is owned by uid %u, should be %u"
+msgstr "%s 属于用户 ID %u，应为 %u"
+
+msgid "%s is world writable"
+msgstr "%s 可被任何人写"
+
+msgid "%s left unmodified"
+msgstr "%s 并未修改"
+
+msgid "%s must be owned by uid %d and have the setuid bit set"
+msgstr "%s 必须属于用户 ID %d(的用户)并且设置 setuid 位"
+
+msgid "%s unchanged"
+msgstr "%s 未更改"
+
+msgid "%s: %s"
+msgstr "%s：%s"
+
+msgid "%s: bad file mode: 0%o"
+msgstr "%s：不正确的文件模式：0%o"
+
+msgid "%s: editing files in a writable directory is not permitted"
+msgstr "%s：不允许编辑可写目录中的文件"
+
+msgid "%s: editing symbolic links is not permitted"
+msgstr "%s：不允许编辑符号链接"
+
+msgid "%s: not a regular file"
+msgstr "%s：不是常规文件"
+
+msgid "%s: truncate %s to zero bytes? (y/n) [n] "
+msgstr "%s：截断 %s 至零字节？ (y/n) [n] "
+
+msgid "%s: unable to log accept event%s%s"
+msgstr "%s：无法记录接受事件%s%s"
+
+msgid "%s: unable to log error event%s%s"
+msgstr "%s：无法记录错误事件%s%s"
+
+msgid "%s: unable to log reject event%s%s"
+msgstr "%s：无法记录拒绝事件%s%s"
+
+msgid "%s[%d] mismatch, expected \"%s\", got \"%s\""
+msgstr "%s[%d] 不匹配，期望为“%s”，得到了“%s”"
+
+msgid "Configure options: %s\n"
+msgstr "当前选项：%s\n"
+
+msgid "I/O plugin error"
+msgstr "I/O 插件错误"
+
+msgid ""
+"If sudo is running in a container, you may need to adjust the container "
+"configuration to disable the flag."
+msgstr "如果 sudo 正在容器中运行，您可能需要调整容器配置以禁用该标志。"
+
+msgid "Only one of the -K, -k or -N options may be specified"
+msgstr "只能指定 -K, -k 或 -N 选项中的一个"
+
+msgid "Only one of the -c or -i options may be specified"
+msgstr "只能指定 -c 或 -i 选项中的一个"
+
+msgid ""
+"Only one of the -e, -h, -i, -K, -l, -s, -v or -V options may be specified"
+msgstr "只能指定 -e、-h、-i、-K、-l、-s、-v 或 -V 选项中的一个"
+
+msgid "Sudo version %s\n"
+msgstr ""
+"给我密码吧哥，我什么都会做的(╥﹏╥)\n"
+"Sudo 版本 %s\n"
+
+msgid ""
+"The \"no new privileges\" flag is set, which prevents sudo from running as "
+"root."
+msgstr "已设置“no new privileges”标志，它阻止 sudo 以 root 身份运行。"
+
+msgid "The -%c option may not be used in edit mode."
+msgstr "-%c 选项在编辑模式中不可用。"
+
+msgid "The -%c option may only be used in edit mode."
+msgstr "-%c 选项只能在编辑模式中使用。"
+
+msgid "Unknown signal"
+msgstr "未知信号"
+
+msgid ""
+"a terminal is required to read the password; either use the -S option to "
+"read from standard input or configure an askpass helper"
+msgstr ""
+"读取密码需要一个终端；请使用 -S 选项以从标准输入进行读取，或者配置一个 "
+"askpass 助手程序"
+
+msgid "approval plugin error"
+msgstr "批准插件出错"
+
+msgid "argv not set by the security policy"
+msgstr "因安全策略，argv 未设置"
+
+msgid "audit plugin error"
+msgstr "审计插件错误"
+
+msgid "change the root directory before running command"
+msgstr "运行命令前改变根目录"
+
+msgid "change the working directory before running command"
+msgstr "运行命令前改变工作目录"
+
+msgid "client request too large: %zu"
+msgstr "客户端请求过大：%zu"
+
+msgid "close all file descriptors >= num"
+msgstr "关闭所有 >= num 的文件描述符"
+
+msgid "command not set by the security policy"
+msgstr "命令因安全策略未设置"
+
+msgid "command rejected by I/O plugin"
+msgstr "命令被 I/O 插件拒绝"
+
+msgid "command rejected by approver"
+msgstr "命令被批准者拒绝"
+
+msgid "command rejected by policy"
+msgstr "命令被策略拒绝"
+
+msgid "contents of edit session left in %s"
+msgstr "编辑会话的内容留在了 %s 中"
+
+msgid "could not bind to default resource pool for project \"%s\""
+msgstr "无法为项目“%s”绑定到默认的资源池"
+
+msgid "could not join project \"%s\""
+msgstr "无法加入项目“%s”"
+
+msgid "create SELinux security context with specified role"
+msgstr "以指定的角色创建 SELinux 安全环境"
+
+msgid "create SELinux security context with specified type"
+msgstr "以指定的类型创建 SELinux 安全环境"
+
+msgid "display help message and exit"
+msgstr "显示帮助消息并退出"
+
+msgid "display version information and exit"
+msgstr "显示版本信息并退出"
+
+msgid "edit files instead of running a command"
+msgstr "编辑文件而非执行命令"
+
+msgid ""
+"effective uid is not %d, is %s on a file system with the 'nosuid' option set "
+"or an NFS file system without root privileges?"
+msgstr ""
+"有效用户 ID 不是 %d，%s 位于一个设置了“nosuid”选项的文件系统或没有 root 权限"
+"的 NFS 文件系统中吗？"
+
+msgid "effective uid is not %d, is sudo installed setuid root?"
+msgstr "有效用户 ID 不是 %d，sudo 属于 root 并设置了 setuid 位吗？"
+
+msgid "envp not set by the security policy"
+msgstr "因安全策略，envp 未设置"
+
+msgid "error changing window size"
+msgstr "变更窗口大小出错"
+
+msgid "error in %s, line %d while loading plugin \"%s\""
+msgstr "在加载插件“%3$s”时在 %1$s 第 %2$d 行出错"
+
+msgid "error in event loop"
+msgstr "事件循环中有错误"
+
+msgid "error initializing I/O plugin"
+msgstr "初始化 I/O 插件出错"
+
+msgid "error initializing I/O plugin %s"
+msgstr "初始化 I/O 插件 %s 出错"
+
+msgid "error initializing approval plugin %s"
+msgstr "初始化批准插件 %s 出错"
+
+msgid "error initializing audit plugin %s"
+msgstr "初始化审计插件 %s 出错"
+
+msgid "error logging suspend"
+msgstr "记录挂起事件时出错"
+
+msgid "error reading from socketpair"
+msgstr "从套接字对读取出错"
+
+msgid "failed to determine AppArmor confinement"
+msgstr "无法确定 AppArmor 限制"
+
+msgid "failed to get new context"
+msgstr "获取新环境失败"
+
+msgid "failed to get old context"
+msgstr "获取旧环境失败"
+
+msgid "failed to set new role %s"
+msgstr "设置新角色 %s 失败"
+
+msgid "failed to set new type %s"
+msgstr "设置新类型 %s 失败"
+
+msgid "fatal error, unable to load plugins"
+msgstr "致命错误，无法加载插件"
+
+msgid "ignoring duplicate plugin \"%s\" in %s, line %d"
+msgstr "忽略位于 %2$s 第 %3$d 行的重复插件“%1$s”"
+
+msgid "ignoring policy plugin \"%s\" in %s, line %d"
+msgstr "忽略位于 %2$s 第 %3$d 行的策略插件“%1$s”"
+
+msgid "in list mode, display privileges for user"
+msgstr "在列表模式中显示用户的权限"
+
+msgid "incompatible plugin major version %d (expected %d) found in %s"
+msgstr "%3$s 中发现不兼容的插件主版本号 %1$d(应为 %2$d)"
+
+msgid "intercept mode is not supported with SELinux RBAC on this system"
+msgstr "本系统上的 SELinux RBAC 不支持拦截模式"
+
+msgid "intercept port not set"
+msgstr "未设置侦听端口"
+
+msgid "internal error, %s overflow"
+msgstr "内部错误，%s 溢出"
+
+msgid "interpreter argument , expected \"%s\", got \"%s\""
+msgstr "解释器参数，期望为“%s”，得到了“%s”"
+
+msgid "invalid Path value \"%s\" in %s, line %u"
+msgstr "%2$s 第 %3$u 行的路径值“%1$s”无效"
+
+msgid "invalid PolicyCheckRequest"
+msgstr "无效的 PolicyCheckRequest"
+
+msgid "invalid environment variable name: %s"
+msgstr "无效的环境变量名：%s"
+
+msgid "invalid file descriptor number: %s"
+msgstr "无效的文件描述符数字：%s"
+
+msgid "invalid max groups \"%s\" in %s, line %u"
+msgstr "%2$s 第 %3$u 行的最大组数“%1$s”无效"
+
+msgid "invalid value"
+msgstr "值无效"
+
+msgid "invalid value for %s \"%s\" in %s, line %u"
+msgstr "%3$s 第 %4$u 行的 %1$s 的值“%2$s”无效"
+
+msgid "invalidate timestamp file"
+msgstr "无效的时间戳文件"
+
+msgid ""
+"list user's privileges or check a specific command; use twice for longer "
+"format"
+msgstr "列出用户权限或检查某个特定命令；对于长格式，使用两次"
+
+msgid "no askpass program specified, try setting SUDO_ASKPASS"
+msgstr "没有指定 askpass 程序，尝试设置 SUDO_ASKPASS"
+
+msgid "no password was provided"
+msgstr "未提供密码"
+
+msgid "no resource pool accepting default bindings exists for project \"%s\""
+msgstr "不存在对应于项目“%s”的、接受默认绑定的资源池"
+
+msgid "no writable temporary directory found"
+msgstr "未找到可写的临时目录"
+
+msgid "non-interactive mode, no prompts are used"
+msgstr "非交互模式，不提示"
+
+msgid "not overwriting %s"
+msgstr "不覆盖 %s"
+
+msgid "only a single policy plugin may be specified"
+msgstr "只能指定一个策略插件"
+
+msgid "pathname mismatch, expected \"%s\", got \"%s\""
+msgstr "路径名不匹配，期望为“%s”，得到了“%s”"
+
+msgid "plugin did not return a command to execute"
+msgstr "插件未返回能执行的命令"
+
+msgid "plugin error: invalid file list for sudoedit"
+msgstr "插件错误：sudoedit 的文件列表无效"
+
+msgid "plugin error: missing file list for sudoedit"
+msgstr "插件错误：缺少 sudoedit 的文件列表"
+
+msgid "policy plugin %s does not include a check_policy method"
+msgstr "策略插件 %s 不包含 check_policy 方法"
+
+msgid "policy plugin %s does not support listing privileges"
+msgstr "策略插件 %s 不支持列出权限"
+
+msgid "policy plugin %s does not support the -k/-K options"
+msgstr "策略插件 %s 不支持 -k/-K 选项"
+
+msgid "policy plugin %s does not support the -v option"
+msgstr "策略插件 %s不支持 -v 选项"
+
+msgid "policy plugin %s is missing the \"check_policy\" method"
+msgstr "check_policy 方法中缺少策略插件 %s"
+
+msgid "policy plugin error"
+msgstr "策略插件错误"
+
+msgid "policy plugin failed session initialization"
+msgstr "策略插件会话初始化失败"
+
+msgid "preserve group vector instead of setting to target's"
+msgstr "保留组向量，而非设置为目标的组向量"
+
+msgid "preserve specific environment variables"
+msgstr "保留特定的环境变量"
+
+msgid "preserve user environment when running command"
+msgstr "在执行命令时保留用户环境"
+
+msgid "process %d exited unexpectedly"
+msgstr "进程 %d 未预期地退出"
+
+msgid "process %d unexpected status 0x%x"
+msgstr "进程 %d 未预期的状态 0x%x"
+
+msgid "read password from standard input"
+msgstr "从标准输入读取密码"
+
+msgid "regular expression too large"
+msgstr "正则表达式太大"
+
+msgid "remove timestamp file completely"
+msgstr "完全移除时间戳文件"
+
+msgid "resource control limit has been reached"
+msgstr "达到了资源控制限制"
+
+msgid "ring bell when prompting"
+msgstr "提示时响铃"
+
+msgid "run command (or edit file) as specified user name or ID"
+msgstr "以指定用户或 ID 运行命令（或编辑文件）"
+
+msgid "run command as the specified group name or ID"
+msgstr "以指定的用户组或 ID 执行命令"
+
+msgid "run command in the background"
+msgstr "在后台运行命令"
+
+msgid "run command on host (if supported by plugin)"
+msgstr "在主机上运行命令（如果插件支持）"
+
+msgid "run command with the specified BSD login class"
+msgstr "以指定的 BSD 登录类别运行命令"
+
+msgid "run login shell as the target user; a command may also be specified"
+msgstr "以目标用户身份运行一个登录 shell；可同时指定一条命令"
+
+msgid "run shell as the target user; a command may also be specified"
+msgstr "以目标用户运行 shell；可同时指定一条命令"
+
+msgid "server message too large: %zu"
+msgstr "服务器消息过大：%zu"
+
+msgid "sesh: internal error: odd number of paths"
+msgstr "sesh：内部错误：路径数量异常"
+
+msgid "sesh: killed by a signal"
+msgstr "sesh：被信号杀死"
+
+msgid "sesh: unable to create temporary files"
+msgstr "sesh：无法创建临时文件"
+
+msgid "sesh: unknown error %d"
+msgstr "sesh：未知错误 %d"
+
+msgid "set HOME variable to target user's home dir"
+msgstr "将 HOME 变量设为目标用户的主目录"
+
+msgid "setproject failed for project \"%s\""
+msgstr "对项目“%s”执行 setproject 失败"
+
+msgid "specified resource pool does not exist for project \"%s\""
+msgstr "指定的对应于项目“%s”的资源池不存在"
+
+msgid "starting from %s"
+msgstr "起始于 %s"
+
+msgid "stop processing command line arguments"
+msgstr "停止处理命令行参数"
+
+msgid "sudoedit is not supported on this platform"
+msgstr "此平台不支持 sudoedit"
+
+msgid "terminate command after the specified time limit"
+msgstr "在达到指定时间限制后终止命令"
+
+msgid "the -A and -S options may not be used together"
+msgstr "-A 和 -S 选项不可同时使用"
+
+msgid "the -E option is not valid in edit mode"
+msgstr "-E 选项在编辑模式中无效"
+
+msgid "the -U option may only be used with the -l option"
+msgstr "-U 选项只能与 -l 选项一起使用"
+
+msgid "the argument to -C must be a number greater than or equal to 3"
+msgstr "-C 选项的参数必须是一个大于等于 3 的数字"
+
+msgid "the invoking task is final"
+msgstr "调用的任务是最终的(final)"
+
+msgid "timed out reading password"
+msgstr "读密码超时"
+
+msgid "unable to add event to queue"
+msgstr "无法将事件添加到队列"
+
+msgid "unable to allocate memory"
+msgstr "无法分配内存"
+
+msgid "unable to allocate pty"
+msgstr "无法分配伪终端"
+
+msgid "unable to change AppArmor profile to %s"
+msgstr "无法将 AppArmor 配置文件更改为 %s"
+
+msgid "unable to change directory to %s"
+msgstr "无法将目录切换到 %s"
+
+msgid "unable to change root to %s"
+msgstr "无法从 root 切换到 %s"
+
+msgid "unable to change to runas uid (%u, %u)"
+msgstr "无法切换到以用户 ID(%u，%u)运行"
+
+msgid "unable to change uid to root (%u)"
+msgstr "无法将用户 ID 切换到 root(%u)"
+
+msgid ""
+"unable to copy some of the temporary files back to their original location"
+msgstr "无法将某些临时文件复制回其原位置"
+
+msgid "unable to copy temporary files back to their original location"
+msgstr "无法将临时文件复制回其原位置"
+
+msgid "unable to create pipe"
+msgstr "无法创建管道"
+
+msgid "unable to create sockets"
+msgstr "无法创建套接字"
+
+msgid "unable to determine enforcing mode."
+msgstr "无法确定强制模式。"
+
+msgid "unable to determine tty"
+msgstr "无法确定终端"
+
+msgid "unable to dup2 stdin"
+msgstr "无法 dup2 stdin"
+
+msgid "unable to execute %s"
+msgstr "无法执行 %s"
+
+msgid "unable to fgetfilecon %s"
+msgstr "无法 fgetfilecon %s"
+
+msgid "unable to find symbol \"%s\" in %s"
+msgstr "在 %2$s 中找不到符号“%1$s”"
+
+msgid "unable to find terminal name for device %u, %u"
+msgstr "无法找到设备 %u, %u 的终端名称"
+
+msgid "unable to fork"
+msgstr "无法执行 fork"
+
+msgid "unable to get current tty context, not relabeling tty"
+msgstr "无法获取当前终端的环境，将不重新标记终端"
+
+msgid "unable to get default type for role %s"
+msgstr "无法获取 %s 角色的默认类型"
+
+msgid "unable to get event message for process %d"
+msgstr "无法获取进程 %d 的事件消息"
+
+msgid "unable to get group list"
+msgstr "无法获取组列表"
+
+msgid "unable to get new tty context, not relabeling tty"
+msgstr "无法获取新终端的环境，将不重新标记终端"
+
+msgid "unable to get registers for process %d"
+msgstr "无法获取进程 %d 的寄存器"
+
+msgid "unable to initialize policy plugin"
+msgstr "无法初始化策略插件"
+
+msgid "unable to load %s: %s"
+msgstr "无法加载 %s：%s"
+
+msgid "unable to log sub-commands with SELinux RBAC on this system"
+msgstr "本系统上的 SELinux RBAC 无法记录子命令"
+
+msgid "unable to mkdir %.*s"
+msgstr "无法创建目录 %.*s"
+
+msgid "unable to open %.*s"
+msgstr "无法打开 %.*s"
+
+msgid "unable to open %s"
+msgstr "无法打开 %s"
+
+msgid "unable to open %s, not relabeling tty"
+msgstr "无法打开 %s，将不重新标记终端"
+
+msgid "unable to open audit system"
+msgstr "无法打开审查系统"
+
+msgid "unable to open userdb"
+msgstr "无法打开 userdb"
+
+msgid "unable to read from %s"
+msgstr "无法读取 %s"
+
+msgid "unable to read password"
+msgstr "无法读取密码"
+
+msgid "unable to read the clock"
+msgstr "无法读取时钟"
+
+msgid "unable to receive message from parent"
+msgstr "无法从父（进程）接收消息"
+
+msgid "unable to remove PRIV_PROC_EXEC from PRIV_LIMIT"
+msgstr "无法从 PRIV_LIMIT 中移除 PRIV_PROC_EXEC"
+
+msgid "unable to restore context for %s"
+msgstr "无法恢复 %s 的环境"
+
+msgid "unable to restore current working directory"
+msgstr "无法恢复当前工作目录"
+
+msgid "unable to restore handler for SIG%s"
+msgstr "无法恢复 SIG%s 信号的处理程序"
+
+msgid "unable to restore handler for SIGCONT"
+msgstr "无法恢复 SIGCONT 信号的处理程序"
+
+msgid "unable to restore handler for signal %d"
+msgstr "无法恢复 %d 信号的处理程序"
+
+msgid "unable to restore registry"
+msgstr "无法恢复注册表"
+
+msgid "unable to restore stdin"
+msgstr "无法恢复 stdin"
+
+msgid "unable to restore terminal settings"
+msgstr "无法恢复终端设置"
+
+msgid "unable to restore tty label"
+msgstr "无法恢复终端标签"
+
+msgid "unable to run %s"
+msgstr "无法执行 %s"
+
+msgid "unable to save handler for signal %d"
+msgstr "无法保存 %d 信号的处理程序"
+
+msgid "unable to save stdin"
+msgstr "无法保存 stdin"
+
+msgid "unable to send audit message"
+msgstr "无法发送审查消息"
+
+msgid "unable to send message to monitor process"
+msgstr "无法向监视进程发送消息"
+
+msgid "unable to set controlling tty"
+msgstr "无法设置控制终端"
+
+msgid "unable to set effective gid to runas gid %u"
+msgstr "无法设置有效组 ID 来以组 ID %u 运行"
+
+msgid "unable to set exec context to %s"
+msgstr "无法向 %s 设置 exec 环境"
+
+msgid "unable to set gid to %u"
+msgstr "无法将组 ID 设为 %u"
+
+msgid "unable to set gid to runas gid %u"
+msgstr "无法设置组 ID 来以组 ID %u 运行"
+
+msgid "unable to set handler for SIG%s"
+msgstr "无法设置 SIG%s 信号的处理程序"
+
+msgid "unable to set handler for SIGCONT"
+msgstr "无法设置 SIGCONT 信号的处理程序"
+
+msgid "unable to set handler for signal %d"
+msgstr "无法设置 %d 信号的处理程序"
+
+msgid "unable to set key creation context to %s"
+msgstr "无法向 %s 设置键创建环境"
+
+msgid "unable to set limit privileges"
+msgstr "无法设置限制特权"
+
+msgid "unable to set new tty context"
+msgstr "无法设置新终端的环境"
+
+msgid "unable to set privileges"
+msgstr "无法设置特权"
+
+msgid "unable to set process priority"
+msgstr "无法设置进程优先级"
+
+msgid "unable to set registers for process %d"
+msgstr "无法设置进程 %d 的寄存器"
+
+msgid "unable to set seccomp filter"
+msgstr "无法设置 seccomp 过滤器"
+
+msgid "unable to set supplementary group IDs"
+msgstr "无法设置补充组 ID"
+
+msgid "unable to set uid to %u"
+msgstr "无法将用户 ID 设为 %u"
+
+msgid "unable to set user context"
+msgstr "无法设置用户环境"
+
+msgid "unable to stat %.*s"
+msgstr "无法 stat %.*s"
+
+msgid "unable to stat %s"
+msgstr "无法 stat %s"
+
+msgid "unable to switch to registry \"%s\" for %s"
+msgstr "无法为 %2$s 切换到注册表“%1$s”"
+
+msgid "unable to unpack %s size %zu"
+msgstr "无法解包 %s（大小 %zu）"
+
+msgid "unable to write to %s"
+msgstr "无法写入 %s"
+
+msgid "unexpected child termination condition: %d"
+msgstr "异常的子进程终止条件：%d"
+
+msgid "unexpected reply type on backchannel: %d"
+msgstr "联络通道的回应类型异常：%d"
+
+msgid "unexpected sudo mode 0x%x"
+msgstr "异常的 sudo 模式 0x%x"
+
+msgid "unexpected type_case value %d in %s from %s"
+msgstr "未预期的 type_case 值 %d，位于 %s，来自 %s"
+
+msgid "unknown login class %s"
+msgstr "未知的登录类别 %s"
+
+msgid "unknown plugin type %d found in %s"
+msgstr "未知的插件类型 %d，在 %s"
+
+msgid "unknown security class \"chr_file\", not relabeling tty"
+msgstr "未知的安全类“chr_file”，将不重新标记终端"
+
+msgid "unsupported group source \"%s\" in %s, line %u"
+msgstr "不支持 %2$s 第 %3$u 行的组来源“%1$s”"
+
+msgid "update user's timestamp without running a command"
+msgstr "更新用户的时间戳而不执行命令"
+
+msgid "use a helper program for password prompting"
+msgstr "使用助手程序进行密码提示"
+
+msgid "use specified BSD authentication type"
+msgstr "使用指定的 BSD 认证类型"
+
+msgid "use the specified password prompt"
+msgstr "使用指定的密码提示"
+
+msgid "user \"%s\" is not a member of project \"%s\""
+msgstr "用户“%s”不是项目“%s”的成员"
+
+msgid "value too large"
+msgstr "值过大"
+
+msgid "value too small"
+msgstr "值过小"
+
+msgid "warning, resource control assignment failed for project \"%s\""
+msgstr "警告，对项目“%s”的资源控制分配失败"
+
+msgid "you do not exist in the %s database"
+msgstr "%s 数据库中没有您"
+
+msgid "you may not specify both the -i and -E options"
+msgstr "您不能同时指定 -i 和 -E 选项"
+
+msgid "you may not specify both the -i and -s options"
+msgstr "您不能同时指定 -i 和 -s 选项"
+
+msgid "you may not specify environment variables in edit mode"
+msgstr "在编辑模式中您不能指定环境变量"
+
+msgid "you must specify a role for type %s"
+msgstr "您必须为 %s 类型指定一个角色"

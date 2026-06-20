@@ -1,0 +1,1216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: https://gitlab.archlinux.org/pacman/pacman/-/issues\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-19 12:22+0800\n"
+"Last-Translator: Jiachen YANG <farseerfc@gmail.com>, 2018-2021,2025\n"
+"Language-Team: Chinese (China) (http://app.transifex.com/toofishes/archlinux-"
+"pacman/language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid ""
+"\n"
+"use '%s {-h --help}' with an operation for available options\n"
+msgstr ""
+"\n"
+"使用 '%s {-h --help}' 及某个操作以查看可用选项\n"
+
+msgid ""
+"                       This program may be freely redistributed under\n"
+"                       the terms of the GNU General Public License.\n"
+msgstr ""
+"                       本程序可以在GNU一般公众许可条款下\n"
+"                       自由分发\n"
+"                       本程序不是猫娘，不要调戏\n"
+
+msgid "        pacman-conf (--repo-list|--help|--version)\n"
+msgstr "        pacman-conf (--repo-list|--help|--version)\n"
+
+msgid "      --arch <arch>    set an alternate architecture\n"
+msgstr "      --arch <架构>    指定另外的架构\n"
+
+msgid "      --asdeps         install packages as non-explicitly installed\n"
+msgstr "      --asdeps         作为非单独指定安装的软件包安装\n"
+
+msgid "      --asdeps         mark packages as non-explicitly installed\n"
+msgstr "      --asdeps         标记为非明确指定安装的软件包\n"
+
+msgid "      --asexplicit     install packages as explicitly installed\n"
+msgstr "      --asexplicit     作为单独指定安装的软件包安装\n"
+
+msgid "      --asexplicit     mark packages as explicitly installed\n"
+msgstr "      --asexplicit     标记为明确指定安装的软件包\n"
+
+msgid ""
+"      --assume-installed <package=version>\n"
+"                       add a virtual package to satisfy dependencies\n"
+msgstr ""
+"      --assume-installed <软件包=版本>\n"
+"                       添加一个虚拟软件包用以满足依赖要求\n"
+
+msgid "      --cachedir <dir> set an alternate package cache location\n"
+msgstr "      --cachedir <目录> 指定另外的软件包缓存位置\n"
+
+msgid "      --color <when>   colorize the output\n"
+msgstr "      --color <when>  彩色化输出\n"
+
+msgid "      --config <path>  set an alternate configuration file\n"
+msgstr "      --config <路径>  指定另外的配置文件\n"
+
+msgid "      --confirm        always ask for confirmation\n"
+msgstr "      --confirm        总是询问确认\n"
+
+msgid ""
+"      --dbonly         only modify database entries, not package files\n"
+msgstr "      --dbonly         仅修改数据库条目，而非软件包文件\n"
+
+msgid "      --debug          display debug messages\n"
+msgstr "      --debug          显示调试信息\n"
+
+msgid ""
+"      --disable-download-timeout\n"
+"                       use relaxed timeouts for download\n"
+msgstr ""
+"      --disable-download-timeout\n"
+"                       下载时用宽松的超时\n"
+
+msgid ""
+"      --disable-sandbox\n"
+"                       disables all sandbox features used for the downloader "
+"process\n"
+msgstr ""
+"      --disable-sandbox\n"
+"                       禁用用于下载进程的所有沙盒功能\n"
+
+msgid ""
+"      --disable-sandbox-filesystem\n"
+"                       disables the filesystem part of the downloader "
+"process sandbox\n"
+msgstr ""
+"      --disable-sandbox-filesystem\n"
+"                       禁用下载进程沙盒的文件系统部分\n"
+
+msgid ""
+"      --disable-sandbox-syscalls\n"
+"                       disables the syscalls part of the downloader process "
+"sandbox\n"
+msgstr ""
+"      --disable-sandbox-syscalls\n"
+"                       禁用下载进程沙盒的系统调用部分\n"
+
+msgid "      --gpgdir <path>  set an alternate home directory for GnuPG\n"
+msgstr "      --gpgdir <路径>  指定 GnuPG 的另外的主目录\n"
+
+msgid "      --hookdir <dir>  set an alternate hook location\n"
+msgstr "      --hookdir <目录>  指定另外的钩子位置\n"
+
+msgid ""
+"      --ignore <pkg>   ignore a package upgrade (can be used more than "
+"once)\n"
+msgstr "      --ignore <软件包>    升级时忽略某个软件包 (可多次使用) \n"
+
+msgid ""
+"      --ignoregroup <grp>\n"
+"                       ignore a group upgrade (can be used more than once)\n"
+msgstr ""
+"      --ignoregroup <软件包组>\n"
+"                         升级时忽略某个软件包组 (可多次使用) \n"
+
+msgid "      --logfile <path> set an alternate log file\n"
+msgstr "      --logfile <路径> 指定另外的日志文件\n"
+
+msgid ""
+"      --machinereadable\n"
+"                       produce machine-readable output\n"
+msgstr ""
+"      --machinereadable\n"
+"                       产生机器可读输出\n"
+
+msgid "      --needed         do not reinstall up to date packages\n"
+msgstr "      --needed         不重新安装已是最新的软件包\n"
+
+msgid "      --noconfirm      do not ask for any confirmation\n"
+msgstr "      --noconfirm      不询问确认\n"
+
+msgid ""
+"      --noprogressbar  do not show a progress bar when downloading files\n"
+msgstr "      --noprogressbar  下载文件时不显示进度条\n"
+
+msgid ""
+"      --noscriptlet    do not execute the install scriptlet if one exists\n"
+msgstr "      --noscriptlet    不执行安装小脚本\n"
+
+msgid ""
+"      --overwrite <glob>\n"
+"                       overwrite conflicting files (can be used more than "
+"once)\n"
+msgstr ""
+" --overwrite  <glob>\n"
+"                        覆盖冲突的文件（可以指定多次）\n"
+
+msgid ""
+"      --print-format <string>\n"
+"                       specify how the targets should be printed\n"
+msgstr ""
+"      --print-format <字符串>\n"
+"                       指定如何打印目标\n"
+
+msgid "      --sysroot        operate on a mounted guest system (root-only)\n"
+msgstr "      --sysroot        在一个已挂载的 guest 系统操作（仅 root）\n"
+
+msgid "  -R, --rootdir=<path> set an alternate installation root\n"
+msgstr "  -R, --rootdir=<path> 指定另外的安装根目录\n"
+
+msgid "  -S, --sysroot=<path> set an alternate system root\n"
+msgstr "  -S, --sysroot=<path> 指定另外的系统根目录\n"
+
+msgid "  -V, --version        display version information\n"
+msgstr " -V, --version display       显示版本信息\n"
+
+msgid "  -b, --dbpath <path>  set an alternate database location\n"
+msgstr "  -b, --dbpath <路径>  指定另外的数据库位置\n"
+
+msgid ""
+"  -c, --cascade        remove packages and all packages that depend on them\n"
+msgstr "  -c, --cascade        删除软件包及所有依赖于此的软件包\n"
+
+msgid "  -c, --changelog      view the changelog of a package\n"
+msgstr "  -c, --changelog      查看某软件包的更新日志\n"
+
+msgid ""
+"  -c, --clean          remove old packages from cache directory (-cc for "
+"all)\n"
+msgstr "  -c, --clean          从缓存目录中删除旧软件包 (-cc 清除所有) \n"
+
+msgid "  -c, --config=<path>  set an alternate configuration file\n"
+msgstr "  -c, --config=<path>  指定另外的配置文件\n"
+
+msgid ""
+"  -d, --deps           list packages installed as dependencies [filter]\n"
+msgstr "  -d, --deps           列出所有作为依赖关系安装的软件包 [过滤器]\n"
+
+msgid ""
+"  -d, --nodeps         skip dependency version checks (-dd to skip all "
+"checks)\n"
+msgstr "  -d, --nodeps         跳过依赖关系的版本检查 (-dd 跳过所有检查)\n"
+
+msgid "  -e, --explicit       list packages explicitly installed [filter]\n"
+msgstr "  -e, --explicit       列出所有单独指定安装的软件包 [过滤器]\n"
+
+msgid "  -g, --groups         view all members of a package group\n"
+msgstr "  -g, --groups         查看某软件包组所属的所有软件包\n"
+
+msgid ""
+"  -g, --groups         view all members of a package group\n"
+"                       (-gg to view all groups and members)\n"
+msgstr ""
+"  -g, --groups         查看某软件包组所属的所有软件包\n"
+"                       (-gg 查看所有软件包组和所属于它们的软件包)\n"
+
+msgid "  -h, --help           display this help information\n"
+msgstr "  -h, --help           显示此帮助信息\n"
+
+msgid ""
+"  -i, --info           view package information (-ii for backup files)\n"
+msgstr "  -i, --info           查看软件包信息 (-ii 查看备份文件) \n"
+
+msgid ""
+"  -i, --info           view package information (-ii for extended "
+"information)\n"
+msgstr "  -i, --info           查看软件包信息 (-ii 查看更多信息)\n"
+
+msgid ""
+"  -k, --check          check that package files exist (-kk for file "
+"properties)\n"
+msgstr "  -k, --check          检查软件包的文件存在(-kk检查文件属性)\n"
+
+msgid ""
+"  -k, --check          test local database for validity (-kk for sync "
+"databases)\n"
+msgstr "  -k, --check          检查本地数据库有效性 (-kk 以同步数据库)\n"
+
+msgid "  -l, --list           list the files owned by the queried package\n"
+msgstr "  -l, --list           列出被查询软件包的文件列表\n"
+
+msgid "  -l, --list <repo>    view a list of packages in a repo\n"
+msgstr "  -l, --list <repo>    查看在该软件库中的软件包清单\n"
+
+msgid "  -l, --repo-list      list configured repositories\n"
+msgstr "  -l, --repo-list      列出配置的仓库\n"
+
+msgid ""
+"  -m, --foreign        list installed packages not found in sync db(s) "
+"[filter]\n"
+msgstr "  -m, --foreign        列出不在同步数据库中的已安装软件包 [过滤器]\n"
+
+msgid ""
+"  -n, --native         list installed packages only found in sync db(s) "
+"[filter]\n"
+msgstr "  -n, --native         列出只在同步数据库中的已安装软件包 [过滤]\n"
+
+msgid "  -n, --nosave         remove configuration files\n"
+msgstr "  -n, --nosave         删除配置文件\n"
+
+msgid "  -o, --owns <file>    query the package that owns <file>\n"
+msgstr "  -o, --owns <file>    查询哪个软件包拥有 <file>\n"
+
+msgid "  -p, --file <package> query a package file instead of the database\n"
+msgstr "  -p, --file <package>  从某个软件包而不是数据库查询\n"
+
+msgid ""
+"  -p, --print          print the targets instead of performing the "
+"operation\n"
+msgstr "  -p, --print          打印目标而不是执行操作\n"
+
+msgid "  -q, --quiet          show less information for query and search\n"
+msgstr "  -q, --quiet          在查询或搜索时显示较少的信息\n"
+
+msgid "  -q, --quiet          suppress output of success messages\n"
+msgstr "  -q, --quiet          不显示成功消息的输出\n"
+
+msgid "  -r, --repo=<remote>  query options for a specific repo\n"
+msgstr "  -r, --repo=<remote>  在某个特定的仓库中查询\n"
+
+msgid "  -r, --root <path>    set an alternate installation root\n"
+msgstr "  -r, --root <路径>    指定另外的安装根目录\n"
+
+msgid ""
+"  -s, --recursive      remove unnecessary dependencies\n"
+"                       (-ss includes explicitly installed dependencies)\n"
+msgstr ""
+"  -s, --recursive      删除不需要的依赖关系\n"
+"                       (-ss 包括单独指定安装的依赖关系)\n"
+
+msgid ""
+"  -s, --search <regex> search locally-installed packages for matching "
+"strings\n"
+msgstr "  -s, --search <regex> 搜寻符合指定字符串的已安装本地的软件包\n"
+
+msgid ""
+"  -s, --search <regex> search remote repositories for matching strings\n"
+msgstr "  -s, --search <regex> 按照指定字符串查询远端软件库\n"
+
+msgid ""
+"  -t, --unrequired     list packages not (optionally) required by any\n"
+"                       package (-tt to ignore optdepends) [filter]\n"
+msgstr ""
+"  -t, --unrequired     列出不被任何软件包(可选)要求的软件包(-tt 忽略可选依"
+"赖) [过滤器]\n"
+
+msgid ""
+"  -u, --sysupgrade     upgrade installed packages (-uu enables downgrades)\n"
+msgstr "  -u, --sysupgrade     升级所有已安装的软件包 (-uu 允许降级)\n"
+
+msgid "  -u, --unneeded       remove unneeded packages\n"
+msgstr "  -u, --unneeded       删除不需要的软件包\n"
+
+msgid "  -u, --upgrades       list outdated packages [filter]\n"
+msgstr "  -u, --upgrades       列出所有可升级的软件包 [过滤器]\n"
+
+msgid "  -v, --verbose        always show directive names\n"
+msgstr "  -v, --verbose        总是显示指示符名称\n"
+
+msgid "  -v, --verbose        be verbose\n"
+msgstr "  -v, --verbose        显示详细信息\n"
+
+msgid ""
+"  -w, --downloadonly   download packages but do not install/upgrade "
+"anything\n"
+msgstr "  -w, --downloadonly   下载但不安装/升级软件包\n"
+
+msgid "  -x, --regex          enable searching using regular expressions\n"
+msgstr "  -x, --regex          启用正则表达式进行搜索\n"
+
+msgid ""
+"  -y, --refresh        download fresh package databases from the server\n"
+"                       (-yy to force a refresh even if up to date)\n"
+msgstr ""
+"  -y, --refresh        从服务器下载新的软件包数据库\n"
+"                       (-yy 强制更新软件包数据库)\n"
+
+msgid "  All current sync database packages\n"
+msgstr "  所有目前同步数据库的软件包\n"
+
+msgid "  All locally installed packages\n"
+msgstr "  所有本地安装的软件包\n"
+
+msgid ""
+"  if you're sure a package manager is not already\n"
+"  running, you can remove %s\n"
+msgstr ""
+"  如果你确认软件包管理器没有在运行，\n"
+"  你可以删除 %s。\n"
+
+msgid " %s downloading...\n"
+msgstr "%s正在下载……\n"
+
+msgid " %s failed to download"
+msgstr "%s下载失败"
+
+msgid " %s is up to date"
+msgstr " %s 新鲜美味😋"
+
+msgid " [installed]"
+msgstr " [已安装]"
+
+msgid " [pending]"
+msgstr " [等待中]"
+
+msgid " there is nothing to do\n"
+msgstr " 没什么可做的喵(＾－＾)V\n"
+
+msgid "%jd altered file\n"
+msgid_plural "%jd altered files\n"
+msgstr[0] "%jd 变化的文件\n"
+
+msgid "%jd missing file\n"
+msgid_plural "%jd missing files\n"
+msgstr[0] "%jd 缺失文件\n"
+
+msgid "%s exists in both '%s' and '%s'\n"
+msgstr "%s 同时存在于 '%s' 和 '%s'\n"
+
+msgid "%s installed as %s.pacnew\n"
+msgstr "%s 已被安装为 %s.pacnew\n"
+
+msgid "%s is designated as a HoldPkg.\n"
+msgstr "%s 被指定为 HoldPkg (保留软件包) 。\n"
+
+msgid "%s is in IgnorePkg/IgnoreGroup. Install anyway?"
+msgstr "%s 在忽略软件包／忽略软件包组中。确定要安装吗?"
+
+msgid "%s is invalid or corrupted\n"
+msgstr "%s 无效或已损坏\n"
+
+msgid "%s is owned by %s%s %s%s%s\n"
+msgstr "%s 由 %s%s %s%s%s 所拥有\n"
+
+msgid "%s is owned by %s%s/%s%s %s%s%s\n"
+msgstr "%s 由 %s%s/%s%s %s%s%s 所拥有\n"
+
+msgid "%s optionally requires %s\n"
+msgstr "%s可选依赖于%s\n"
+
+msgid "%s saved as %s.pacsave\n"
+msgstr "%s 已被保存为 %s.pacsave\n"
+
+msgid "%s, %s from \"%s\""
+msgstr "%s，%s 来自 \"%s\""
+
+msgid "%s-%s and %s-%s are in conflict\n"
+msgstr "%s-%s 与 %s-%s 有冲突\n"
+
+msgid "%s-%s and %s-%s are in conflict (%s)\n"
+msgstr "%s-%s 与 %s-%s 有冲突 (%s)\n"
+
+msgid "%s-%s%s%s and %s-%s%s%s are in conflict (%s). Remove %s?"
+msgstr "%s-%s%s%s 与 %s-%s%s%s 有冲突 (%s)。删除 %s 吗？"
+
+msgid "%s-%s%s%s and %s-%s%s%s are in conflict. Remove %s?"
+msgstr "%s-%s%s%s 与 %s-%s%s%s 有冲突。删除 %s 吗？"
+
+msgid "%s: %jd total file, "
+msgid_plural "%s: %jd total files, "
+msgstr[0] "%s: %jd 全部文件，"
+
+msgid "%s: %s (%s checksum information not available)\n"
+msgstr "%s：%s（%s的校验和信息不存在）\n"
+
+msgid "%s: %s (%s checksum mismatch)\n"
+msgstr "%s：%s（%s校验和不一致）\n"
+
+msgid "%s: %s (File type mismatch)\n"
+msgstr "%s: %s (文件类型不匹配)\n"
+
+msgid "%s: %s (GID mismatch)\n"
+msgstr "%s: %s (用户组标识符GID不匹配)\n"
+
+msgid "%s: %s (Modification time mismatch)\n"
+msgstr "%s: %s (修改时间不匹配)\n"
+
+msgid "%s: %s (Permissions mismatch)\n"
+msgstr "%s: %s (权限不匹配)\n"
+
+msgid "%s: %s (Size mismatch)\n"
+msgstr "%s: %s (大小不匹配)\n"
+
+msgid "%s: %s (Symlink path mismatch)\n"
+msgstr "%s: %s (符号链接路径不匹配)\n"
+
+msgid "%s: %s (UID mismatch)\n"
+msgstr "%s: %s (用户标识符UID不匹配)\n"
+
+msgid "%s: %s (failed to calculate %s checksum)\n"
+msgstr "%s：%s（计算 %s 的校验和失败）\n"
+
+msgid "%s: %s exists in filesystem\n"
+msgstr "%s: 文件系统中已存在 %s \n"
+
+msgid "%s: %s exists in filesystem (owned by %s)\n"
+msgstr "%s: 文件系统中存在 %s （由 %s 所有）\n"
+
+msgid "%s: install reason has been set to 'explicitly installed'\n"
+msgstr "%s：安装原因设定为“单独指定安装”\n"
+
+msgid "%s: install reason has been set to 'installed as dependency'\n"
+msgstr "%s：安装原因设定为“作为依赖关系安装”\n"
+
+msgid "%s: no mtree file\n"
+msgstr "%s: 没有 mtree 文件\n"
+
+msgid "'%s' is a file, did you mean %s instead of %s?\n"
+msgstr "'%s' 是一个文件，您是否想要 %s 而不是 %s?\n"
+
+msgid "'%s' is a file, you might want to use %s.\n"
+msgstr "'%s' 是一个文件，您可能打算使用 %s。\n"
+
+msgid "'%s' is not a valid debug level\n"
+msgstr "'%s' 不是有效的调试级别\n"
+
+msgid "Architecture"
+msgstr "架构"
+
+msgid "Backup Files"
+msgstr "备份文件"
+
+msgid "Build Date"
+msgstr "编译日期"
+
+msgid "Cache directory: %s\n"
+msgstr "缓存目录：%s\n"
+
+msgid "Cannot find the given file.\n"
+msgstr "找不到指定的文件。\n"
+
+msgid "Cannot open the given file.\n"
+msgstr "无法打开指定的文件。\n"
+
+msgid "Changelog for %s:\n"
+msgstr "%s的更新日志：\n"
+
+msgid "Compressed Size"
+msgstr "压缩后大小"
+
+msgid "Conflicts With"
+msgstr "与它冲突"
+
+msgid "Database directory: %s\n"
+msgstr "数据库目录：%s\n"
+
+msgid "Depends On"
+msgstr "依赖于"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Do you want to remove ALL files from cache?"
+msgstr "打算从缓存中删除所有文件吗？"
+
+msgid "Do you want to remove all other packages from cache?"
+msgstr "您想从缓存中删除所有其他的软件包吗？"
+
+msgid "Do you want to remove these packages?"
+msgstr "打算处死这些软件包吗✧(≖ ◡ ≖✿)？"
+
+msgid "Do you want to remove unused repositories?"
+msgstr "打算删除无用的软件库？"
+
+msgid "Do you want to skip the above package for this upgrade?"
+msgid_plural "Do you want to skip the above packages for this upgrade?"
+msgstr[0] "您想在本次更新中跳过上述软件包吗？"
+
+msgid "Download Size"
+msgstr "下载大小"
+
+msgid "Enter a number (default=%d)"
+msgstr "输入某个数字 ( 默认=%d )"
+
+msgid "Enter a selection (default=all)"
+msgstr "输入某个选择 ( 默认=全部选定 )"
+
+msgid "Errors occurred, no packages were upgraded.\n"
+msgstr "发生错误，没有软件包被更新。\n"
+
+msgid "Expired"
+msgstr "已过期"
+
+msgid "Explicitly installed"
+msgstr "单独指定安装"
+
+msgid "Failed to pass %s entry to libalpm"
+msgstr "传递 %s 条目至 libalpm 失败"
+
+msgid ""
+"File %s is corrupted (%s).\n"
+"Do you want to delete it?"
+msgstr ""
+"文件 %s 已损坏 (%s).\n"
+"打算删除吗？"
+
+msgid "Groups"
+msgstr "组"
+
+msgid "HTTP_USER_AGENT truncated\n"
+msgstr "HTTP_USER_AGENT 被截断\n"
+
+msgid "HoldPkg was found in target list. Do you want to continue?"
+msgstr "在目标清单中发现 HoldPkg 指定的软件包。你确定要继续吗？"
+
+msgid "Import PGP key %s, \"%s\"?"
+msgstr "是否导入 PGP 公钥 %s ，\"%s\"？"
+
+msgid "Import PGP key %s?"
+msgstr "是否导入 PGP 公钥 %s ？"
+
+msgid "Install Date"
+msgstr "安装日期"
+
+msgid "Install Reason"
+msgstr "安装原因"
+
+msgid "Install Script"
+msgstr "安装脚本"
+
+msgid "Installed Size"
+msgstr "安装后大小"
+
+msgid "Installed as a dependency for another package"
+msgstr "作为其他软件包的依赖关系安装"
+
+msgid "Invalid"
+msgstr "无效"
+
+msgid "Key disabled"
+msgstr "已禁用密钥"
+
+msgid "Key expired"
+msgstr "密钥已过期"
+
+msgid "Key unknown"
+msgstr "未知密钥"
+
+msgid "Licenses"
+msgstr "软件许可"
+
+msgid "MD5 Sum"
+msgstr "MD5校验值"
+
+msgid "N"
+msgstr "N"
+
+msgid "NO"
+msgstr "否"
+
+msgid "Name"
+msgstr "名字"
+
+msgid "Net Change"
+msgstr "净变化"
+
+msgid "Net Upgrade Size:"
+msgstr "实际变化："
+
+msgid "New Version"
+msgstr "新版本"
+
+msgid "New optional dependencies for %s\n"
+msgstr "%s 的新可选依赖\n"
+
+msgid "No"
+msgstr "否"
+
+msgid "No database errors have been found!\n"
+msgstr "数据库正常！\n"
+
+msgid "No package owns %s\n"
+msgstr "没有软件包拥有 %s\n"
+
+msgid "None"
+msgstr "无"
+
+msgid "Old Version"
+msgstr "旧版本"
+
+msgid "Optional Deps"
+msgstr "可选依赖"
+
+msgid "Optional For"
+msgstr "被可选依赖"
+
+msgid "Optional dependencies for %s\n"
+msgstr "%s 的可选依赖\n"
+
+msgid "Package"
+msgstr "软件包"
+
+msgid "Package is invalid.\n"
+msgstr "软件包无效。\n"
+
+msgid "Package is valid.\n"
+msgstr "软件包有效。\n"
+
+msgid "Packager"
+msgstr "打包者"
+
+msgid "Packages"
+msgstr "软件包"
+
+msgid "Packages to keep:\n"
+msgstr "要保留的软件包：\n"
+
+msgid "Proceed with download?"
+msgstr "进行下载吗？"
+
+msgid "Proceed with installation?"
+msgstr "这是要安装吗？"
+
+msgid "Processing package changes...\n"
+msgstr "正在处理软件包的剧变...\n"
+
+msgid "Provides"
+msgstr "提供"
+
+msgid "Replace %s with %s/%s?"
+msgstr "替换 %s 为 %s/%s 吗 ？"
+
+msgid "Replaces"
+msgstr "取代"
+
+msgid "Repository"
+msgstr "软件库"
+
+msgid "Repository %s%s\n"
+msgstr "软件仓库 %s%s\n"
+
+msgid "Required By"
+msgstr "依赖它"
+
+msgid "Retrieving packages...\n"
+msgstr "正在释放神经递质......\n"
+
+msgid "Running post-transaction hooks...\n"
+msgstr "正在进行收尾工作...\n"
+
+msgid "Running pre-transaction hooks...\n"
+msgstr "正在进行准备工作...\n"
+
+msgid "SHA-256 Sum"
+msgstr "SHA-256 校验值"
+
+msgid "Signature"
+msgstr "数字签名"
+
+msgid "Signature error"
+msgstr "签名错误"
+
+msgid "Signatures"
+msgstr "数字签名"
+
+msgid "Starting full system upgrade...\n"
+msgstr "启动全面系统滚挂喵(*´∀`)~♥...\n"
+
+msgid "Synchronizing package databases...\n"
+msgstr "正在和软件包数据库谈判...\n"
+
+msgid ""
+"Test a pacman package for validity.\n"
+"\n"
+msgstr ""
+"测试 pacman 软件包的有效性。\n"
+"\n"
+
+msgid ""
+"The following package cannot be upgraded due to unresolvable dependencies:\n"
+msgid_plural ""
+"The following packages cannot be upgraded due to unresolvable dependencies:\n"
+msgstr[0] "因为无法解决依赖关系，以下软件包无法进行更新：\n"
+
+msgid "There is %d member in group %s%s%s:\n"
+msgid_plural "There are %d members in group %s%s%s:\n"
+msgstr[0] "在组 %2$s%3$s%4$s 中有 %1$d 成员：\n"
+
+msgid "There is %zu provider available for %s\n"
+msgid_plural "There are %zu providers available for %s:\n"
+msgstr[0] "有 %zu 个软件包可提供 %s ：\n"
+
+msgid "Total"
+msgstr "总共"
+
+msgid "Total Download Size:"
+msgstr "总共下了："
+
+msgid "Total Installed Size:"
+msgstr "安装大小："
+
+msgid "Total Removed Size:"
+msgstr "删完立省："
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Unknown"
+msgstr "未知的"
+
+msgid "Usage: testpkg <package file>\n"
+msgstr "用法：testpkg <package file>\n"
+
+msgid "Valid"
+msgstr "有效"
+
+msgid "Validated By"
+msgstr "验证者"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "YES"
+msgstr "是"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "[Y/n]"
+msgstr "[Y/n]"
+
+msgid "[ignored]"
+msgstr "[被忽略的]"
+
+msgid "[y/N]"
+msgstr "[y/N]"
+
+msgid "argument '-' specified with empty stdin\n"
+msgstr "有参数 '-' 但标准输入流为空\n"
+
+msgid "argument '-' specified without input on stdin\n"
+msgstr "有参数 '-' 但标准输入流中没有输入\n"
+
+msgid "backup file"
+msgstr "备份文件"
+
+msgid "cannot initialize alpm: %s\n"
+msgstr "无法初始化 alpm：%s\n"
+
+msgid "checking available disk space"
+msgstr "看看空间还有多大"
+
+msgid "checking available disk space...\n"
+msgstr "正在检查硬盘能不能塞进去...\n"
+
+msgid "checking dependencies...\n"
+msgstr "正在检查依赖关系...\n"
+
+msgid "checking for file conflicts"
+msgstr "正在检查文件冲突"
+
+msgid "checking for file conflicts...\n"
+msgstr "正在检查文件冲突...\n"
+
+msgid "checking keyring...\n"
+msgstr "正在检查密钥环......\n"
+
+msgid "checking keys in keyring"
+msgstr "正在验牌密钥"
+
+msgid "checking package integrity"
+msgstr "正在检查有没有丢东西"
+
+msgid "checking package integrity...\n"
+msgstr "正在检查有没有丢东西...\n"
+
+msgid "config file %s could not be read: %s\n"
+msgstr "无法读取配置文件 %s: %s\n"
+
+msgid "config file %s, line %d: '%s' option '%s' not recognized\n"
+msgstr "配置文件 %s，第 %d 行：'%s' 选项 '%s' 无法识别\n"
+
+msgid "config file %s, line %d: '%s' option invalid, no signature support\n"
+msgstr "配置文件 %s，第 %d 行：'%s' 选项无效，无签名支持\n"
+
+msgid "config file %s, line %d: All directives must belong to a section.\n"
+msgstr "配置文件 %s，第 %d 行：所有的指示符必须属于同一章节。\n"
+
+msgid ""
+"config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
+msgstr "配置文件 %s，第 %d 行：指示符 '%s' 在 '%s' 章节中无法识别。\n"
+
+msgid "config file %s, line %d: directive '%s' needs a value\n"
+msgstr "配置文件 %s，第 %d 行：指示符 '%s' 需要赋值\n"
+
+msgid "config file %s, line %d: invalid value for '%s' : '%s'\n"
+msgstr "配置文件 %s，第 %d 行：无效值 '%s'：'%s'\n"
+
+msgid "config file %s, line %d: value for '%s' has to be positive : '%s'\n"
+msgstr "配置文件 %s，第 %d 行： '%s' 的值必须为正数：'%s'\n"
+
+msgid "config file %s, line %d: value for '%s' is too large : '%s'\n"
+msgstr "配置文件 %s，第 %d 行：'%s' 的值过大：'%s'\n"
+
+msgid "config parsing exceeded max recursion depth of %d.\n"
+msgstr "配置解析时超过最大 %d 的递归深度。\n"
+
+msgid "could not access cache directory %s\n"
+msgstr "无法访问缓存目录 %s\n"
+
+msgid "could not access database directory\n"
+msgstr "无法访问数据库目录\n"
+
+msgid "could not add cache server URL to database '%s': %s (%s)\n"
+msgstr "无法添加缓存服务器 URL 到数据库 '%s'：%s (%s)\n"
+
+msgid "could not add server URL to database '%s': %s (%s)\n"
+msgstr "无法添加服务器 URL 到数据库 '%s'：%s (%s)\n"
+
+msgid "could not calculate checksums for %s\n"
+msgstr "无法计算 %s 的完整性校验值\n"
+
+msgid "could not chdir to download directory %s\n"
+msgstr "无法 chdir 到下载目录 %s\n"
+
+msgid "could not get current working directory\n"
+msgstr "无法获取当前的工作目录\n"
+
+msgid "could not load package '%s': %s\n"
+msgstr "无法加载软件包 '%s': %s\n"
+
+msgid "could not lock database: %s\n"
+msgstr "无法锁定数据库：%s\n"
+
+msgid "could not register '%s' database (%s)\n"
+msgstr "无法注册 '%s' 数据库 (%s)\n"
+
+msgid "could not remove %s%s: path exceeds PATH_MAX\n"
+msgstr "无法删除 %s%s：路径超过 PATH_MAX\n"
+
+msgid "could not remove %s: %s\n"
+msgstr "无法删除 %s：%s\n"
+
+msgid "could not rename %s to %s (%s)\n"
+msgstr "无法将 %s 重命名为 %s (%s)\n"
+
+msgid "could not restore working directory (%s)\n"
+msgstr "无法恢复工作目录 (%s)\n"
+
+msgid "could not set install reason for package %s (%s)\n"
+msgstr "无法为软件包 %s 指定安装原因 (%s)\n"
+
+msgid "database '%s' is not valid (%s)\n"
+msgstr "数据库 '%s' 无效 (%s)\n"
+
+msgid "database not found: %s\n"
+msgstr "未找到数据库：%s\n"
+
+msgid "downgrading"
+msgstr "正在降级"
+
+msgid "downgrading %s...\n"
+msgstr "正在降级 %s...\n"
+
+msgid "downloading required keys...\n"
+msgstr "正在下载所需的密钥......\n"
+
+msgid "empty string passed to file owner query\n"
+msgstr "文件所有者查询传入了空字符串\n"
+
+msgid "error parsing '%s'\n"
+msgstr "解析 '%s' 时遇到错误\n"
+
+msgid "error releasing alpm\n"
+msgstr "释放 alpm 时报错\n"
+
+msgid "error setting rootdir '%s': out of memory\n"
+msgstr "设置根目录 '%s' 时报错：内存不足\n"
+
+msgid "error setting sysroot '%s': out of memory\n"
+msgstr "设置系统根目录 '%s' 时报错：内存不足\n"
+
+msgid "error: "
+msgstr "错误："
+
+msgid "error: directives may not be specified with %s\n"
+msgstr "错误：指示符不能同时用 %s \n"
+
+msgid "error: repo '%s' not configured\n"
+msgstr "错误：未找到软件源 '%s' 的配置\n"
+
+msgid "failed to allocate string\n"
+msgstr "无法分配字符串\n"
+
+msgid "failed to commit transaction (%s)\n"
+msgstr "无法提交处理 (%s)\n"
+
+msgid "failed to init transaction (%s)\n"
+msgstr "无法初始化事务处理 (%s)\n"
+
+msgid ""
+"failed to initialize alpm library:\n"
+"(root: %s, dbpath: %s)\n"
+"%s\n"
+msgstr ""
+"初始化 alpm 库时失败：\n"
+"（root: %s，dbpath: %s）\n"
+"%s\n"
+
+msgid "failed to prepare transaction (%s)\n"
+msgstr "无法准备事务处理 (%s)\n"
+
+msgid "failed to read arguments from stdin: (%s)\n"
+msgstr "从标准输入读取参数失败：(%s)\n"
+
+msgid "failed to release transaction (%s)\n"
+msgstr "无法释放事务处理 (%s)\n"
+
+msgid "failed to reopen stdin for reading: (%s)\n"
+msgstr "无法打开 stdin 以读取：(%s)\n"
+
+msgid "failed to synchronize all databases (%s)\n"
+msgstr "未能同步所有数据库（%s）\n"
+
+msgid "file type not recognized: %s%s\n"
+msgstr "文件类型无法识别: %s%s\n"
+
+msgid "file(s)"
+msgstr "文件"
+
+msgid "full trust"
+msgstr "完全信任"
+
+msgid "group '%s' was not found\n"
+msgstr "软件组 '%s' 未找到\n"
+
+msgid "installed"
+msgstr "已安装"
+
+msgid "installing"
+msgstr "正在安装"
+
+msgid "installing %s (%s) breaks dependency '%s' required by %s\n"
+msgstr "安装 %s (%s) 破坏依赖 '%s' （%s 需要）\n"
+
+msgid "installing %s...\n"
+msgstr "正在品鉴 %s...\n"
+
+msgid "insufficient columns available for table display\n"
+msgstr "屏幕宽度不足，无法使用表格视图\n"
+
+msgid "invalid argument '%s' for %s\n"
+msgstr "'%s' 不是 %s 的合法参数\n"
+
+msgid "invalid number: %s\n"
+msgstr "无效数字：%s\n"
+
+msgid "invalid option '-%c'\n"
+msgstr "无效选项 '-%c'\n"
+
+msgid "invalid option '--%s'\n"
+msgstr "无效选项 '--%s'\n"
+
+msgid "invalid option: '%s' and '%s' may not be used together\n"
+msgstr "无效选项： 选项 '%s' 和 '%s' 不可以同时使用\n"
+
+msgid "invalid package: '%s'\n"
+msgstr "无效软件包：'%s'\n"
+
+msgid "invalid regular expression '%s'\n"
+msgstr "无效的正则表达式 '%s'\n"
+
+msgid "invalid value: %d is not between %d and %d\n"
+msgstr "无效值：%d 不在 %d 和 %d 之间\n"
+
+msgid "libalpm error: %s\n"
+msgstr "libalpm 报错：%s\n"
+
+msgid "loading package files"
+msgstr "正在拆开软件包取文件"
+
+msgid "loading package files...\n"
+msgstr "正在加载软件包文件...\n"
+
+msgid "loading packages...\n"
+msgstr "正在加载软件包...\n"
+
+msgid "looking for conflicting packages...\n"
+msgstr "让我看看软件和谁过不去...\n"
+
+msgid "malloc failure: could not allocate %zu byte\n"
+msgid_plural "malloc failure: could not allocate %zu bytes\n"
+msgstr[0] "malloc 失败：无法分配 %zu 字节\n"
+
+msgid "marginal trust"
+msgstr "有限信任"
+
+msgid "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+msgstr "镜像 '%s' 包含可变参数 '%s' ，但是没有定义 '%s'。\n"
+
+msgid "never trust"
+msgstr "永不信任"
+
+msgid "no '%s' configured\n"
+msgstr "没有配置 '%s' \n"
+
+msgid "no changelog available for '%s'.\n"
+msgstr "'%s' 没有可用的更新日志。\n"
+
+msgid "no file was specified for --owns\n"
+msgstr "没有为 --owns 指定文件\n"
+
+msgid "no install reason specified (use -h for help)\n"
+msgstr "没有指定安装原因 (使用 -h 获取帮助 )\n"
+
+msgid "no operation specified (use -h for help)\n"
+msgstr "没有指定操作 (使用 -h 获取帮助) \n"
+
+msgid "no targets specified (use -h for help)\n"
+msgstr "没有指定目标 (使用 -h 获取帮助) \n"
+
+msgid "no usable package repositories configured.\n"
+msgstr "没有设置可用的软件包库。\n"
+
+msgid "only one operation may be used at a time\n"
+msgstr "一次只能运行一个操作\n"
+
+msgid "operation"
+msgstr "操作"
+
+msgid "operations:\n"
+msgstr "操作:\n"
+
+msgid "options"
+msgstr "选项"
+
+msgid "options:\n"
+msgstr "选项:\n"
+
+msgid "package %s does not have a valid architecture\n"
+msgstr "软件包 '%s' 未包含一个有效的架构\n"
+
+msgid "package '%s' was not found\n"
+msgstr "软件包 '%s' 未找到\n"
+
+msgid "package group '%s' was not found\n"
+msgstr "软件包组 '%s' 未找到\n"
+
+msgid "package(s)"
+msgstr "软件包"
+
+msgid "pacman-conf - query pacman's configuration file\n"
+msgstr "pacman-conf - 查询 pacman 的配置文件\n"
+
+msgid "path too long: %s%s\n"
+msgstr "路径过长：%s%s\n"
+
+msgid "path too long: %s/\n"
+msgstr "路径过长：%s\n"
+
+msgid "path too long: %slocal/%s-%s/%s\n"
+msgstr "路径过长：%slocal/%s-%s/%s\n"
+
+msgid "problem adding hookdir '%s' (%s)\n"
+msgstr "添加 hookdir '%s' 时出现问题 (%s)\n"
+
+msgid "problem setting DownloadUser '%s' (user does not exist)\n"
+msgstr "设置 DownloadUser '%s' 时发生问题（用户不存在）\n"
+
+msgid "problem setting gpgdir '%s' (%s)\n"
+msgstr "设定 gpgdir '%s' 时出现问题 (%s)\n"
+
+msgid "problem setting logfile '%s' (%s)\n"
+msgstr "设定日志文件 '%s' (%s) 时出现问题\n"
+
+msgid "reinstalling"
+msgstr "正在重新安装"
+
+msgid "reinstalling %s...\n"
+msgstr "正在重新安装 %s...\n"
+
+msgid "removal"
+msgstr "删除"
+
+msgid "removing"
+msgstr "正在踹飞"
+
+msgid "removing %s breaks dependency '%s' required by %s\n"
+msgstr "删除 %s 破坏依赖 '%s' （%s 生理需要）\n"
+
+msgid "removing %s...\n"
+msgstr "正在删除 %s...\n"
+
+msgid "removing all files from cache...\n"
+msgstr "正在从缓存中删除所有文件...\n"
+
+msgid "removing old packages from cache...\n"
+msgstr "正在从缓存中删除旧软件包...\n"
+
+msgid "removing unused sync repositories...\n"
+msgstr "正在删除未用的同步仓库...\n"
+
+msgid "repository \"%s\" was not found.\n"
+msgstr "软件库 \"%s\" 未找到\n"
+
+msgid "repository '%s' does not exist\n"
+msgstr "软件库 '%s' 不存在\n"
+
+msgid "resolving dependencies...\n"
+msgstr "让我看看软件依赖什么...\n"
+
+msgid "running XferCommand: fork failed!\n"
+msgstr "运行 XferCommand 创建进程失败！\n"
+
+msgid "skipping %s%s: path exceeds PATH_MAX\n"
+msgstr "正在跳过 %s%s：路径超过 PATH_MAX\n"
+
+msgid "skipping target: %s\n"
+msgstr "正在跳过软件包：%s\n"
+
+msgid "switching to sandbox user '%s' failed!\n"
+msgstr "切换到沙盒用户 '%s' 时失败！\n"
+
+msgid "target not found: %s\n"
+msgstr "找目标找到了滚木：%s\n"
+
+msgid "try running pacman-db-upgrade\n"
+msgstr "请尝试运行 pacman-db-upgrade\n"
+
+msgid "unable to read symlink contents: %s\n"
+msgstr "无法读取符号链接的内容: %s\n"
+
+msgid "unable to satisfy dependency '%s' required by %s\n"
+msgstr "无法满足依赖 '%s' （%s 需要）\n"
+
+msgid "unknown callback event type %d for %s\n"
+msgstr "未知的回调事件类型 %d 为文件 %s\n"
+
+msgid "unknown trust"
+msgstr "未知信任"
+
+msgid "upgrading"
+msgstr "正在更新"
+
+msgid "upgrading %s...\n"
+msgstr "正在升级 %s...\n"
+
+msgid "usage"
+msgstr "用法"
+
+msgid "usage:  pacman-conf [options] [<directive>...]\n"
+msgstr "用法:  pacman-conf [options] [<directive>...]\n"
+
+msgid "warning: "
+msgstr "警告："
+
+msgid "warning: '%s' directives cannot be queried\n"
+msgstr "警告：不能查询 '%s' 指示符\n"
+
+msgid "warning: unknown directive '%s'\n"
+msgstr "警告：未知的指示符 '%s'\n"
+
+msgid "you cannot perform this operation unless you are root.\n"
+msgstr "非 root 摸我会炸毛喵\n"
