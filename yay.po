@@ -1,0 +1,547 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Haowen Shi, 2025\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/yay-1/teams/123732/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid ""
+"\n"
+"Build directory:"
+msgstr ""
+"\n"
+"构建目录:"
+
+msgid ""
+"\n"
+"Enter a number (default=1): "
+msgstr ""
+"\n"
+"输入数字 (默认=1): "
+
+msgid " (Build Files Exist)"
+msgstr "(构建文件存在)"
+
+msgid " (Installed)"
+msgstr " (已安装)"
+
+msgid " [Installed]"
+msgstr " [已安装]"
+
+msgid " there is nothing to do"
+msgstr " 没什么可做的喵(＾－＾)V"
+
+msgid "%s [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)"
+msgstr "%s [A]全部 [Ab]中止 [I]已安装 [No]未安装 或 (1 2 3, 1-3, ^4)"
+
+msgid "%s already made -- skipping build"
+msgstr "%s 已生成 -- 不用构建(*‘ v`*)"
+
+msgid "%s is not set"
+msgstr "未设置 %s"
+
+msgid "%s is present."
+msgstr "%s 存在。"
+
+msgid "%s is up to date -- skipping"
+msgstr "%s 是最新的 -- 跳过"
+
+msgid "%s to upgrade/install."
+msgstr "%s 将被升级/安装。"
+
+msgid "%s will also be installed for this operation."
+msgstr "%s 也会为此操作而被安装。"
+
+msgid "%s, required by: %s"
+msgstr "%s, 被以下需要: %s"
+
+msgid "%s: No changes -- skipping"
+msgstr "%s: 没有更改 -- 跳过"
+
+msgid "%s: can't use target with option --aur -- skipping"
+msgstr "%s: 不能将目标与选项 --aur 一起使用 -- 跳过"
+
+msgid "%s: can't use target with option --repo -- skipping"
+msgstr "%s: 不能将目标与选项 --repo 一起使用 -- 跳过"
+
+msgid "%s: ignoring package upgrade (%s => %s)"
+msgstr "%s: 忽略包升级 (%s => %s)"
+
+msgid "%s: local (%s) is newer than AUR (%s)"
+msgstr "%s: 本地 (%s) 比 AUR (%s) 更新"
+
+msgid ""
+"%s: please set AUR_USERNAME and AUR_PASSWORD environment variables for voting"
+msgstr "%s: 请设置 AUR_USERNAME 与 AUR_PASSWORD 环境变量以投票"
+
+msgid "(%d/%d) Downloaded PKGBUILD from ABS: %s"
+msgstr "(%d/%d) 从 ABS 下载了 PKGBUILD: %s"
+
+msgid "(%d/%d) Downloaded PKGBUILD: %s"
+msgstr "(%d/%d) 下载了 PKGBUILD: %s"
+
+msgid "(%d/%d) Failed to download PKGBUILD: %s"
+msgstr "(%d/%d) 下载PKGBUILD失败"
+
+msgid "(%d/%d) Parsing SRCINFO: %s"
+msgstr "(%d/%d) 正在解析 SRCINFO: %s"
+
+msgid "(Installed)"
+msgstr "(已安装)"
+
+msgid "(Installed: %s)"
+msgstr "(已安装: %s)"
+
+msgid "(Orphaned)"
+msgstr "(孤包)"
+
+msgid "(Out-of-date: %s)"
+msgstr "(过时的: %s)"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "AUR URL"
+msgstr "AUR URL"
+
+msgid "Add %s or %s to your environment variables"
+msgstr "将 %s 或 %s 添加到你的环境变量"
+
+msgid "Avoid running yay as root/sudo."
+msgstr "避免以 root/sudo 运行 yay。"
+
+msgid "Check Dependency"
+msgstr "作为检查依赖安装"
+
+msgid "Check Deps"
+msgstr "检查依赖"
+
+msgid "Checking development packages..."
+msgstr "正在检查开发包..."
+
+msgid "Cleaning (%d/%d): %s"
+msgstr "正在清理 (%d/%d): %s"
+
+msgid "Conflicts With"
+msgstr "与它冲突"
+
+msgid "Deleting (%d/%d): %s"
+msgstr "正在删除 (%d/%d): %s"
+
+msgid "Dependency"
+msgstr "作为依赖安装"
+
+msgid "Depends On"
+msgstr "依赖以下包"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Diffs to show?"
+msgstr "显示哪些包的差异？"
+
+msgid "Disable 'provides' setting by default"
+msgstr "默认禁用 'provides' 设置"
+
+msgid "Do you want to remove ALL AUR packages from cache?"
+msgstr "你是否要从缓存中删除所有 AUR 软件包？"
+
+msgid "Do you want to remove ALL untracked AUR files?"
+msgstr "你是否要删除所有未跟踪的 AUR 文件？"
+
+msgid "Do you want to remove all other AUR packages from cache?"
+msgstr "你是否要从缓存中删除所有其他 AUR 软件包？"
+
+msgid "Edit PKGBUILD with?"
+msgstr "使用什么来编辑 PKGBUILD？"
+
+msgid "Error during AUR search: %s\n"
+msgstr "搜索 AUR 时出错: %s\n"
+
+msgid "Excluding packages may cause partial upgrades and break systems"
+msgstr "排除软件包可能会导致不完整的升级并破坏系统"
+
+msgid "Explicit"
+msgstr "单独指定安装"
+
+msgid "Explicitly installed packages: %s"
+msgstr "单独指定安装的软件包: %s"
+
+msgid "Failed to find AUR package for"
+msgstr "查找 AUR 软件包失败："
+
+msgid "Failed to install layer, rolling up to next layer."
+msgstr "层级安装失败，正在合并到下一个层级。"
+
+msgid ""
+"Failed to install the following packages. Manual intervention is required:"
+msgstr "无法安装以下软件(｡>﹏<):"
+
+msgid "First Submitted"
+msgstr "首次提交"
+
+msgid "Flagged Out Of Date AUR Packages:"
+msgstr "标记为过时的 AUR 软件包:"
+
+msgid "Foreign installed packages: %s"
+msgstr "已安装的外部软件包: %s"
+
+msgid "Found git repo: %s"
+msgstr "已找到 git 仓库: %s"
+
+msgid "GenDB finished. No packages were installed"
+msgstr "GenDB 完成。 没有安装任何软件包"
+
+msgid "Groups"
+msgstr "组"
+
+msgid "Import?"
+msgstr "导入？"
+
+msgid "Importing keys with gpg..."
+msgstr "正在导入 GPG 密钥..."
+
+msgid "Keywords"
+msgstr "关键字"
+
+msgid "Last Modified"
+msgstr "最后修改"
+
+msgid "Licenses"
+msgstr "许可证"
+
+msgid "Local"
+msgstr "本地"
+
+msgid "Maintainer"
+msgstr "维护者"
+
+msgid "Make Dependency"
+msgstr "作为构建依赖安装"
+
+msgid "Make Deps"
+msgstr "构建依赖"
+
+msgid "Missing"
+msgstr "缺少"
+
+msgid "Missing AUR Debug Packages:"
+msgstr "缺少 AUR 调试包:"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "No AUR package found for"
+msgstr "找不到 AUR 包"
+
+msgid "No package found for"
+msgstr "找不到包"
+
+msgid "None"
+msgstr "没有"
+
+msgid "Optional Deps"
+msgstr "可选依赖"
+
+msgid "Orphan (unmaintained) AUR Packages:"
+msgstr "孤包 (无人维护) 的 AUR 软件包："
+
+msgid "Out-of-date"
+msgstr "过时"
+
+msgid "PGP keys need importing:"
+msgstr "需要导入的 PGP 密钥:"
+
+msgid "PKGBUILD up to date, skipping download: %s"
+msgstr "PKGBUILD 是最新的，跳过下载: %s"
+
+msgid "PKGBUILDs to edit?"
+msgstr "要编辑哪些 PKGBUILD？"
+
+msgid "Package Base"
+msgstr "基本包"
+
+msgid "Package Base ID"
+msgstr "基本包 ID"
+
+msgid "Packages not in AUR:"
+msgstr "不在 AUR 中的软件包："
+
+msgid "Packages to cleanBuild?"
+msgstr "清理哪些包的构建文件？"
+
+msgid "Packages to exclude"
+msgstr "要排除的软件包"
+
+msgid "Packages to exclude: (eg: \"1 2 3\", \"1-3\", \"^4\" or repo name)"
+msgstr "要排除的包: (示例: \"1 2 3\", \"1-3\", \"^4\" 或软件库名称)"
+
+msgid "Packages to install (eg: 1 2 3, 1-3 or ^4)"
+msgstr "要安装的包 (示例: 1 2 3, 1-3 或 ^4)"
+
+msgid "Popularity"
+msgstr "受欢迎度"
+
+msgid "Proceed with install?"
+msgstr "继续安装？"
+
+msgid "Provides"
+msgstr "提供"
+
+msgid "Remove make dependencies after install?"
+msgstr "安装后删除构建依赖？"
+
+msgid "Replaces"
+msgstr "替换"
+
+msgid "Repository"
+msgstr "软件库"
+
+msgid "Repository AUR"
+msgstr "AUR 软件库"
+
+msgid "SRCINFO"
+msgstr "SRCINFO"
+
+msgid "Searching AUR for updates..."
+msgstr "正在搜查 AUR ..."
+
+msgid "Searching databases for updates..."
+msgstr "正在暴力抽查数据库∠( ᐛ 」∠)_..."
+
+msgid "Showing repo packages only"
+msgstr "仅显示软件库软件包"
+
+msgid "Size of pacman cache %s: %s"
+msgstr "pacman 缓存大小 %s: %s"
+
+msgid "Size of yay cache %s: %s"
+msgstr "yay 缓存大小 %s: %s"
+
+msgid "Snapshot URL"
+msgstr "快照 URL"
+
+msgid "Sync"
+msgstr "同步"
+
+msgid "Ten biggest packages:"
+msgstr "十个最大的软件包:"
+
+msgid "The following packages are not compatible with your architecture:"
+msgstr "下列软件包与你的系统架构不兼容:"
+
+msgid "There are %[1]d providers available for %[2]s:"
+msgstr "对于 %[2] 有 %[1]d 个结果："
+
+msgid "There may be another Pacman instance running. Waiting..."
+msgstr "可能还有另一个 Pacman 实例正在运行。等待中..."
+
+msgid "Total Size occupied by packages: %s"
+msgstr "包占用的总大小: %s"
+
+msgid "Total installed packages: %s"
+msgstr "已安装的软件包总数:  %s"
+
+msgid "Try to build them anyway?"
+msgstr "依然尝试构建吗？"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Unable to clean:"
+msgstr "无法清理："
+
+msgid "Unable to find the following packages:"
+msgstr "找不到下列软件包："
+
+msgid "Unable to handle package vote for: %s. err: %s"
+msgstr "无法处理软件包的投票: %s。错误: %s"
+
+msgid "Unable to remove %s: %s"
+msgstr "无法删除 %s: %s"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Votes"
+msgstr "得票"
+
+msgid "Yay version v%s"
+msgstr "Yay 版本 v%s"
+
+msgid "[N]one"
+msgstr "[N]没有"
+
+msgid "aborting due to user"
+msgstr "用户自行终止"
+
+msgid "argument '-' specified without input on stdin"
+msgstr "指定了参数“-”，但未在 stdin 输入任何内容"
+
+msgid "cannot find PKGBUILD and .SRCINFO in directory"
+msgstr "在目录中找不到 PKGBUILD 和 .SRCINFO 文件"
+
+msgid "cannot find package name: %v"
+msgstr "找不到包名: %v"
+
+msgid "could not find PKGDEST for: %s"
+msgstr "找不到 PKGDEST: %s"
+
+msgid "could not find all required packages"
+msgstr "无法找到所有必需的软件包"
+
+msgid "could not find any package archives listed in %s"
+msgstr "在 %s 中无法找到任何软件包存档"
+
+msgid "dependency"
+msgstr "作为依赖安装"
+
+msgid "devel check for package failed: '%s' encountered an error"
+msgstr "软件包的开发检查失败: '%s' 遇到了错误"
+
+msgid "editor did not exit successfully, aborting: %s"
+msgstr "编辑器未成功退出，正在中止: %s"
+
+msgid "error downloading sources: %s"
+msgstr "下载源文件时出错: %s"
+
+msgid "error fetching %s: %s"
+msgstr "获取 %s 时出错: %s"
+
+msgid "error installing repo packages"
+msgstr "安装软件库软件包时出错"
+
+msgid "error installing:"
+msgstr "安装失败: "
+
+msgid "error making: %s"
+msgstr "生成时出错: %s"
+
+msgid "error merging %s: %s"
+msgstr "合并 %s 时出错: %s"
+
+msgid "error reading %s"
+msgstr "读取 %s 时出错"
+
+msgid "error refreshing databases"
+msgstr "与数据库谈判破裂"
+
+msgid "error resetting %s: %s"
+msgstr "重置 %s 时出错: %s"
+
+msgid "error updating package install reason to %s"
+msgstr "更新软件包时因 %s 出错"
+
+msgid "explicit"
+msgstr "单独指定安装"
+
+msgid "failed to create directory '%s': %s"
+msgstr "无法创建目录 '%s': %s"
+
+msgid "failed to open config file '%s': %s"
+msgstr "无法打开配置文件 '%s': %s"
+
+msgid "failed to parse %s -- skipping: %s"
+msgstr "无法解析 %s -- 跳过: %s"
+
+msgid "failed to parse %s: %s"
+msgstr "无法解析 %s: %s"
+
+msgid "failed to parse .SRCINFO"
+msgstr "无法解析 .SRCINFO"
+
+msgid "failed to read config file '%s': %s"
+msgstr "无法读取配置文件 '%s': %s"
+
+msgid "failed to retrieve aur Cache"
+msgstr "无法获取 AUR 缓存"
+
+msgid "ignoring package devel upgrade (no AUR info found):"
+msgstr "忽略软件包开发更新（未找到 AUR 信息）："
+
+msgid "input too long"
+msgstr "输入过长"
+
+msgid "invalid number: %s"
+msgstr "无效数字: %s"
+
+msgid "invalid option '%s'"
+msgstr "无效选项 '%s'"
+
+msgid "invalid option: '--deps' and '--explicit' may not be used together"
+msgstr "无效选项: '--deps' 和 '--explicit' 不能同时指定"
+
+msgid "invalid repository"
+msgstr "无效软件库"
+
+msgid "invalid value: %d is not between %d and %d"
+msgstr "无效值: %d 不在 %d 和 %d 之间"
+
+msgid "no"
+msgstr "no"
+
+msgid "no keys to import"
+msgstr "没有要导入的密钥"
+
+msgid "no query was executed"
+msgstr "没有查询被执行"
+
+msgid "no target directories specified"
+msgstr "未指定目标目录"
+
+msgid "nothing to install for %s"
+msgstr "%s 没有需要安装的依赖软件包"
+
+msgid "only one operation may be used at a time"
+msgstr "一次只能使用一项操作"
+
+msgid "only one target is allowed"
+msgstr "仅允许一个目标"
+
+msgid "package"
+msgid_plural "packages"
+msgstr[0] "软件包"
+
+msgid "package '%s' was not found"
+msgstr "找不到软件包 '%s'"
+
+msgid "package not found in AUR"
+msgstr "AUR 中找不到软件包"
+
+msgid "package not found in repos"
+msgstr "软件库中找不到软件包"
+
+msgid "problem importing keys"
+msgstr "导入密钥时出现问题"
+
+msgid "removing AUR packages from cache..."
+msgstr "正在从缓存中删除 AUR 软件包..."
+
+msgid "removing untracked AUR files from cache..."
+msgstr "正在从缓存中删除未跟踪的 AUR 文件..."
+
+msgid "the PKGDEST for %s is listed by makepkg but does not exist: %s"
+msgstr "%s 的 PKGDEST 由 makepkg 列出，但不存在: %s"
+
+msgid "there is nothing to do"
+msgstr "没什么可做的喵(＾－＾)V"
+
+msgid "unable to CreateHandle: %s"
+msgstr "无法创建句柄: %s"
+
+msgid "unhandled operation"
+msgstr "未处理的操作"
+
+msgid "unknown-version"
+msgstr "未知版本"
+
+msgid "yes"
+msgstr "yes"
